@@ -26,3 +26,179 @@ updates:
       time: '23:00'
       timezone: PST8PDT
     open-pull-requests-limit: 10
+
+
+  - package-ecosystem: bundler
+    directory: /docs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-canvas
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-cli
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-crossfilter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-dataflow
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-encode
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-event-selector
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-expression
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-force
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-format
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-functions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-geo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-hierarchy
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-interpreter
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-label
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-loader
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-parser
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-projection-extended
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-projection
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-regression
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-runtime
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-scale
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-scenegraph
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-schema
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-selections
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-statistics
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-time
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-transforms
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-typings
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-util
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-view-transforms
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-view
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-voronoi
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega-wordcloud
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/vega
+    schedule:
+      interval: daily
